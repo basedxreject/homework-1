@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.main-container {
+  gap: 10%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.divided-form-1 {
+  flex: 45%;
+}
+.divided-form-2 {
+  flex: 45%;
+}
+.full-forms {
+  flex: 100%;
+}
+.agree-terms {
+  flex: 10%;
+}
+.details {
+  flex: 80%;
+}
+
+p {
+  padding: 10px;
+}
+button {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button#register {
+  background-color: blue;
+}
+button#sign-in {
+  background-color: green;
+}
